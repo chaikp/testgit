@@ -13,3 +13,6 @@
     6.4  Merge the lates Master from 5.2 to the new branch "git merge master"
     6.5  Resolve any conflict from the merge, repeat Step 5.
     6.6  "git push origin newbranchname"
+
+* The changes pushed from our own Git Repository (forked from the main Git Repository of Shahrul) will also notify the main Git Repository
+* Changes from forked Repository is merged into the main Repository
