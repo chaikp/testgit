@@ -1,0 +1,15 @@
+1. Fork project from Shahrul/testgit
+2. Get Git's web URL from forked project
+3. Run command "git clone https://github.com/yourGitId/testgit.git"
+4. Always create new branch when making changes
+    4.1  use command "git checkout -b newbranchname"
+5. When changes is complete
+    5.1  Add the code for staging "git add ."
+    5.2  Commit the changes in staging "git commit -m "message for commit" "
+6. Before pushing the change into github
+    6.1  Switch to Master branch "git checkout master"
+    6.2  Pull latest Master "git pull "
+    6.3  Return to newbranchname "git checkout newbranchname"
+    6.4  Merge the lates Master from 5.2 to the new branch "git merge master"
+    6.5  Resolve any conflict from the merge, repeat Step 5.
+    6.6  "git push origin newbranchname"
