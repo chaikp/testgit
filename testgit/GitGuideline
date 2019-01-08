@@ -22,3 +22,4 @@
     9.3  Merge the changes into master, then delete the branch 
 
 Its is advisable to perform step 8.1 to 8.5 daily before start working, to keep the code base updated and discover potential conflict earlier
+Changes should NOT be push into master, always push to branch, and merge into master after review and approval
